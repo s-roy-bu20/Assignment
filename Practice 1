@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+    <link rel="stylesheet" href="CV.CSS">
+</head>
+<body>
+    <div class="container">
+    <header>
+    <img src="photo.jpg" height="200px" width="200px" alt="no image here">
+    <h2>Saikot Roy</h2>
+    <p>Web Designer</p>
+    <p>Email: saikotroy.bugm20@gmail.com| Phone: +8801538408305</p>
+    <p>Adress: Dept Of Geology and Mining, University Of Barishal</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#achievement">Achievement</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <selection>
+    <h3>About Me</h3>
+    <p class="para">Motivated web developer with 2 years of experience in creating dynamic and responsive website using HTML, CSS. Strong ability to learn and adapt to new technologies, with a passion for creating user friendly designs.</p>
+    </selection>
+    <section id="skills">
+    <h3>Skills</h3>
+    <ul class="ul li">
+        <li>HTML5 & CSS3</li>
+        <li>Bootstrap Framework</li>
+        <li>Adobe Photoshop & Illustrator</li>
+    </ul>
+    </section>
+    <section id="experience">
+    <h3>Experience</h3>
+    <ul class="ul li">
+        <li><b>Digital marketing speacialist- </b> Samrat IT (Jan 2022 - Mar 2023)<br>Developed and maintaied the company website, ensuring a smooth user experience across all devieces.</li>
+        <li><b>Web developer- </b>ABC Solutions(Aug 2020 - Dec 2021)<br>Assisted in the development of client websites, focusing on front-end design and functionality.</li>
+      
+    </ul>
+    </section>
+    <section id="education">
+    <h3>Education</h3>
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Session Year</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td>Bachelor of Science in Geology and Mining (on going) </td>
+            <td>University of Barishal</td>
+            <td>2019-20 </td>
+            <td>3.40 up </td>
+        </tr>
+        <tr>
+            <td>Higher Secondary Certificate</td>
+            <td>Govt. Collage Bangabandhu College </td>
+            <td>2018</td>
+            <td>4.50</td>
+        </tr>
+    </table>
+    </section>
+    <section id="achievement">
+    <h3>Achievements and Awards</h3>
+    <ul class="ul li">
+        <li>Coursera best Student Awards - 2021</li>
+        
+    </ul>
+    </section>
+    <section id="projects">
+    <h3>Projects and Research</h3>
+    <ul class="ul li">
+        <li><b>Project Title: </b>Dynamic Portfolio Website<br>Develped a responsive portfolio website with interactive features using HTML, CSS, and JavaScript.</li>
+        <li><b>Research paper: </b>Optimizing Web Performance<br>Conducted research on web performance optimization techniques and implemented findings in real world projects.</li>
+    </ul>
+    </section>
+    <section id="contact">
+    <h3>Contact Me</h3>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+    </section>
+    <footer>
+        2024 Saikot - All Rights Reserved
+    </footer>
+</div>
+</body>
+</html>
